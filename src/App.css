@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.cat-card {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.cat-card img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cat-card p {
+  cursor: pointer;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.ban-list {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.ban-item {
+  display: inline-block;
+  background: #ffdddd;
+  border: 1px solid #ff9999;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+.ban-item:hover{
+  cursor: pointer;
+}
+p:hover strong:hover{
+  cursor: pointer;
+}
